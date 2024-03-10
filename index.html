@@ -9,23 +9,23 @@
     <title>Atividade Aula 14 - Desenvolvimento Front-End</title>
 </head>
 <body>
-    <header class="container-fluid p-2 bg-light text-center">
-        <nav class="navbar navbar-expand-lg bg-light">
+    <header class="container-fluid p-2 bg-primary text-center">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Meu Site</a>
+              <a class="navbar-brand text-light" href="#">Meu Site</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-end bg-light" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Menu 1</a>
+                    <a class="nav-link text-light tex" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Menu 2</a>
+                    <a class="nav-link text-light" href="#">Preços</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Menu 3</a>
+                    <a class="nav-link text-light" href="#">Contato</a>
                   </li>
                 </ul>
               </div>
@@ -34,16 +34,75 @@
     </header>
     <section class="container-fluid bg-light text-center p-4 text-black">
         <div class="px-4 py-5 my-5 text-center">
-            <img class="d-block mx-auto mb-4" src="img/robot.png" alt="" width="72">
-            <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+            <img class="d-block mx-auto mb-4" src="img/robot.png" alt="Emoji robot" width="72">
+            <h1 class="display-5 fw-bold text-body-emphasis">Bem vindos ao meu site</h1>
             <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+              <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu ipsum, mollis at ultricies nec, volutpat eu velit.</p>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</a>
-                <a type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</a>
+                <a type="button" class="btn btn-primary btn-lg px-4 gap-3">Quero conhecer os planos</a>
+                <a type="button" class="btn btn-outline-secondary btn-lg px-4">Saiba mais</a>
               </div>
             </div>
         </div>
+    </section>
+    <section class="container-fluid bg-primary text-center p-4 text-black">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">Preços</h1>
+            <p class="fs-5 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>10 users included</li>
+                    <li>2 GB of storage</li>
+                    <li>Email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>20 users included</li>
+                    <li>10 GB of storage</li>
+                    <li>Priority email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>30 users included</li>
+                    <li>15 GB of storage</li>
+                    <li>Phone and email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
     <footer class="container-fluid bg-dark text-light p-2 text-center">
         <p>2024 Rafael Moraes </p>
