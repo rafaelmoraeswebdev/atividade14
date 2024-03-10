@@ -22,10 +22,10 @@
                     <a class="nav-link text-light tex" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Preços</a>
+                    <a class="nav-link text-light" href="#planosPrecos">Planos e Preços</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contato</a>
+                    <a class="nav-link text-light" href="#contato">Contato</a>
                   </li>
                 </ul>
               </div>
@@ -37,57 +37,95 @@
             <img class="d-block mx-auto mb-4" src="img/robot.png" alt="Emoji robot" width="72">
             <h1 class="display-5 fw-bold text-body-emphasis">Bem vindos ao meu site</h1>
             <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu ipsum, mollis at ultricies nec, volutpat eu velit.</p>
-              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a type="button" class="btn btn-primary btn-lg px-4 gap-3">Quero conhecer os planos</a>
-                <a type="button" class="btn btn-outline-secondary btn-lg px-4">Saiba mais</a>
+                <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu ipsum, mollis at ultricies nec, volutpat eu velit.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a type="button" class="btn btn-primary btn-lg px-4 gap-3">Quero conhecer os planos</a>
+                    <a type="button" class="btn btn-outline-secondary btn-lg px-4">Saiba mais</a>
               </div>
             </div>
         </div>
     </section>
-    <section class="container-fluid bg-secondary text-center p-4 text-white">
+    <section class="container-fluid bg-secondary text-center p-4 text-white" id="planosPrecos">
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-            <h1 class="display-4 fw-normal">Planos e Preços</h1>
+            <h1 class="display-5 fw-bold">Planos e Preços</h1>
             <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="row row-cols-md-2 mb-md-2 text-center">
             <div class="col">
-              <div class="card mb-4 rounded-3 shadow-sm">
-                <div class="card-header py-3">
-                  <h4 class="my-0 fw-normal">Plano grátis</h4>
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Plano grátis</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$0<small class="text-body-secondary fw-light">/mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 usuários </li>
+                            <li>2 GB de armazenameto</li>
+                            <li>Suporte via e-mail</li>
+                            <li>Acesso à central de ajuda</li>
+                        </ul>
+                        <a type="button" class="w-100 btn btn-lg btn-outline-primary">Assinar</a>
+                    </div>
                 </div>
-                <div class="card-body">
-                  <h1 class="card-title pricing-card-title">R$0<small class="text-body-secondary fw-light">/mês</small></h1>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li>10 usuários </li>
-                    <li>2 GB de armazenameto</li>
-                    <li>Suporte via e-mail</li>
-                    <li>Acesso à central de ajuda</li>
-                  </ul>
-                  <a type="button" class="w-100 btn btn-lg btn-outline-primary">Assinar</a>
-                </div>
-              </div>
             </div>
             <div class="col">
-              <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                  <h4 class="my-0 fw-normal">Pro</h4>
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$29<small class="text-body-secondary fw-light">/mês</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 usuários</li>
+                            <li>10 GB de armazenameto</li>
+                            <li>Prioridade no suporte via e-mail</li>
+                            <li>Acesso à central de ajuda</li>
+                        </ul>
+                        <a type="button" class="w-100 btn btn-lg btn-primary">Assinar</a>
+                    </div>
                 </div>
-                <div class="card-body">
-                  <h1 class="card-title pricing-card-title">R$29<small class="text-body-secondary fw-light">/mês</small></h1>
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li>20 usuários</li>
-                    <li>10 GB de armazenameto</li>
-                    <li>Prioridade no suporte via e-mail</li>
-                    <li>Acesso à central de ajuda</li>
-                  </ul>
-                  <a type="button" class="w-100 btn btn-lg btn-primary">Assinar</a>
-                </div>
-              </div>
             </div>
         </div>
     </section>
-    <footer class="container-fluid bg-dark text-light p-2 text-center">
+    <section class="container-fluid bg-light p-4" id="contato">
+        <h1 class="display-5 fw-bold text-center">Contato</h1>
+        <form method="get" action="" class="container">
+            <fieldset>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="email@xyz.com" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="form-check">
+                    <input type="checkbox" name="gratis" value="Gratis" id="planoGratis" class="form-check-input">
+                    <label class="form-check-label" for="planoGratis">
+                        Plano Grátis
+                   </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="pro" value="Pro" class="form-check-input" id="planoPro"> 
+                    <label class="form-check-label" for="planoPro"> 
+                        Plano Pro
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="form-floating mt-3 mb-3">
+                    <textarea class="form-control" placeholder="Digite a sua dúvida aqui..." id="floatingTextarea2" style="height: 200px"></textarea>
+                    <label for="floatingTextarea2">Digite a sua dúvida aqui</label>
+                </div>
+            </fieldset>
+
+            <a class="btn btn-primary">Enviar</a>
+
+        </form>
+    </section>
+    <footer class="container-fluid bg-secondary text-light p-2 text-center">
         <p>2024 Rafael Moraes </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
